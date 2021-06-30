@@ -40,9 +40,9 @@ app.use('/api/orders', orderRouter);
 app.get('/api/config/paypal', (req, res) => {
   res.send(process.env.PAYPAL_CLIENT_ID || 'sb');
 });
-app.use(express.static(path.join(__dirname, '/frontend/build')));
+app.use(express.static(path.join(__dirname, '/dubaiapp/build')));
 app.get('*', (req, res) =>
-  res.sendFile(path.join(__dirname, '/frontend/build/index.html'))
+  res.sendFile(path.join(__dirname, '/dubaiapp/build/index.html'))
 );
 // app.get('/', (req, res) => {
 //   res.send('Server is ready');
