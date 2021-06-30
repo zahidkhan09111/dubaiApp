@@ -2,7 +2,7 @@
   "name": "amazona",
   "type": "module",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tehseen App",
   "main": "index.js",
   "scripts": {
     "build": "cd dubaiapp && npm install && npm run build",
