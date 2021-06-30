@@ -15,9 +15,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zahidkhan09111/tahseen-web/issues"
+    "url": "https://github.com/zahidkhan09111/dubaiApp/issues"
   },
-  "homepage": "https://github.com/zahidkhan09111/tahseen-web#readme",
+  "homepage": "https://github.com/zahidkhan09111/dubaiApp#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^10.0.0",
