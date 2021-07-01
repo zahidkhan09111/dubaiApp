@@ -6,6 +6,7 @@ import path from 'path';
 import userRouter from './routers/userRouter.js';
 import productRouter from './routers/productRouter.js';
 import orderRouter from './routers/orderRouter.js';
+import uploadRouter from './routers/uploadRouter.js';
 
 dotenv.config();
 
@@ -35,6 +36,7 @@ mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/dubaiApp', {
 //     res.send(data.products);
 // })
 
+app.use('/api/uploads', uploadRouter);
 app.use('/api/users', userRouter);
 app.use('/api/products', productRouter);
 app.use('/api/orders', orderRouter);
